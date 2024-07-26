@@ -1,0 +1,26 @@
+{
+  "name": "rip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "browserslist": [
+    "> 1%, not dead"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit --skipLibCheck"
+  },
+  "engines": {
+    "node": "18.18.0",
+    "npm": "^9.5.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/test-utils": "^2.4.6",
+    "vitest": "^1.5.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "vue": "^3.4.26"
+  }
+}
